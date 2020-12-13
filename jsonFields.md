@@ -5,7 +5,7 @@ Fields:
 + `nameS` - Cocktail name.
 + `defaultGlassS` - Default type of glassware (picklist?).
 + `instructionS` - Narrative instructions for making the cocktail.
-+ `genericProcessClassS` - Process class: built, stirred (built), stirred (mixing glass), shaken.
++ `genericProcessClassS` - Process class: built, stirred (built), stirred (mixing glass), shaken, blended, flash blended.
 + `genericCocktailClassS` - Type of cocktail (generally) following _Cocktail Codex_: Old Fashioned, Martini, Daiquiri, Sidecar, Highball, Flip. Allow Python `None`.
 + `genericIngredientsL` - Python list (serialized as string) of ingredient classes.
 + `preferredIngredientsL` - List of preferred brands when relevant; allow `None`.
